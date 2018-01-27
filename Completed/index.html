@@ -1,145 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>TailWindCSS</title>
 
-    <!-- TailWindCSS -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
-    
-    <nav class="bg-teal py-6 px-6 w-full flex items-center justify-center">
-        <div class="container px-6 flex items-center justify-between">
-            <h2>
-                <a href="#" class="no-underline text-grey-light hover:text-grey-lightest">Ultra Logo</a>
-            </h2>
-            
-            <ul class="flex list-reset justify-end">
-                <li class="mx-2">
-                    <a href="#" class="no-underline text-white hover:underline">Home</a>
-                </li>
-                <li class="mx-2">
-                    <a href="#" class="no-underline text-white hover:underline">About</a>
-                </li>
-                <li class="mx-2">
-                    <a href="#" class="no-underline text-white hover:underline">Blog</a>
-                </li>
-                <li class="mx-2">
-                    <a href="#" class="no-underline text-white hover:underline">Contact</a>
-                </li>
-                <li class="mx-2">
-                    <a href="#" class="no-underline text-white hover:underline">Website</a>
-                </li>
+
+<body class="bg-grey-lighter">
+
+    <header class="w-full bg-grey-darkest py-4">
+        <div class="container flex justify-between mx-auto">
+
+            <p class="text-white">Coded with ❤️ &nbsp;by
+                <a href="https://github.com/TheMartes" class="no-underline text-white hover:text-grey-light">TheMartes</a>
+            </p>
+            <ul class="list-reset flex align-center">
+                <li class="px-4">
+                    <a href="/" class="text-white no-underline hover:text-grey-light">Home</li>
+                </a>
+                <li class="px-4 pr-0">
+                    <a href="/contact" class="text-white no-underline hover:text-grey-light">Contact</li>
+                </a>
             </ul>
         </div>
-    </nav>
+    </header>
 
-    <main class="width-full flex flex-col items-center">
-        <div class="container p-6">
-            <h1>Sem pribudne neskôr nejaký názov článku</h1>
+    <div class="container mx-auto flex flex-col">
+        <div class="flex">
+            <div class="bg-white shadow w-1/3 my-4 p-4 flex flex-col items-center">
+                <img src="https://avatars0.githubusercontent.com/u/16374732?s=460&v=4" class="rounded-full w-1/2" alt="profile-image">
 
-            <p class="my-6">Look, just because I don't be givin' no man a foot massage don't make it right for Marsellus to throw Antwone into a glass
-                motherfuckin' house, fuckin' up the way the nigger talks. Motherfucker do that shit to me, he better paralyze my ass,
-                'cause I'll kill the motherfucker, know what I'm sayin'? </p>
-            
-            <p class="my-6">You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got
-                a taste for murder. After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on
-                each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I'm
-                breaking now. We said we'd say it was the snow that killed the other two, but it wasn't. Nature is lethal but it doesn't
-                hold a candle to man. </p>
-            
-            <p class="my-6">Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't
-                get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too
-                fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on
-                the same curve, just on opposite ends. </p>
-            
-            <p class="my-6">You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got
-                a taste for murder. After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on
-                each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I'm
-                breaking now. We said we'd say it was the snow that killed the other two, but it wasn't. Nature is lethal but it doesn't
-                hold a candle to man. </p>
-            
-            <p class="my-6">Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American
-                crime. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in
-                American crime. Like they're actually proud of that shit. </p>
-            
-            <p class="my-6">Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell
-                who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and
-                me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass. </p>
+                <div class="my-4">
+                    <h2 class="text-grey-darkest">TheMartes</h2>
+                    <p class="text-xs text-center">FullStack Developer</p>
+                </div>
+                <p class="text-grey-dark mb-2">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Slovakia</p>
+                <div class="flex">
+                    <a href="#" class="no-underline mx-2 py-2 px-4 border border-purple text-grey-darker rounded-full hover:bg-purple hover:text-white">Github</a>
+                    <a href="#" class="no-underline mx-2 py-2 px-4 border border-purple text-grey-darker rounded-full hover:bg-purple hover:text-white">Bitbucket</a>
+                </div>
+            </div>
 
-            <form action="#" class="flex flex-col flex-wrap max-w-md w-1/2">
-                <h1 class="my-6">Forms</h1>
+            <div class="flex flex-col bg-white shadow w-full my-4 mx-6 mr-0 p-4">
+                <h2 class="text-grey-darkest">Latest Projects</h2>
 
-                <p class="text-teal mx-6 text-xs my-2">* Items that are bordered with this color are required</p>
+                <div class="flex justify-between rounded p-3 my-2 border border-grey-darkest">
+                    <p>TailWindCSS</p>
 
-                <div class="flex flex justify- w-full">
-                    <div class="flex w-full flex-col mx-6">
-                        <label for="name" class="uppercase text-grey my-2">
-                            First Name
-                        </label>
-                        <input type="text" placeholder="Mrož" class="appearance-none block w-full border rounded border-grey px-4 py-3 bg-blue-lightest">
-                    </div>
-                    <div class="flex w-full flex-col mx-6">
-                        <label for="name" class="uppercase text-grey my-2">
-                            Last Name
-                        </label>
-                        <input type="text" placeholder="Veľký" class="appearance-none block w-full border rounded border-grey px-4 py-3 bg-blue-lightest">
+                    <div class="flex bg-grey-light rounded text-xs items-center">
+                        <ul class="list-reset flex">
+                            <li class="mx-2">
+                                <a href="#" class="no-underline hover:text-grey-darkest text-grey">
+                                    <i class="fa fa-globe" aria-hidden="true"></i>About</a>
+                            </li>
+                            <li class="mx-2">
+                                <a href="#" class="no-underline hover:text-grey-darkest text-grey">
+                                    <i class="fa fa-link" aria-hidden="true"></i> Visit the website</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="flex-col flex my-4 mx-6">
-                    <label for="password" class="uppercase text-grey my-2">
-                        Password
-                    </label>
-                    <input type="password" placeholder="Super Secret" class="border rounded border-red px-4 py-3 bg-blue-lightest">
-                    <p class="text-red text-xs italic m-3">Whoops, your password looks too short!</p>
-                </div>
-
-                <p class="text-center text-grey uppercase">Billing address</p>
-                <hr class="border border-grey-light h-1px w-1/2">
-
-                <div class="flex w-full">
-                    <div class="flex flex-col w-full mx-6">
-                        <label for="city" class="uppercase text-grey my-2">
-                            City
-                        </label>
-                        <input type="text" placeholder="Aljaška" class="appearance-none block w-full border rounded border-teal px-4 py-3 bg-blue-lightest">
-                    </div>
-                    <div class="flex flex-col w-full mx-6">
-                        <label for="city" class="uppercase text-grey my-2">
-                            ZIP CODE
-                        </label>
-                        <input type="text" placeholder="999 99" class="appearance-none block w-full border rounded border-teal px-4 py-3 bg-blue-lightest">
+                <div class="flex justify-between rounded p-3 my-2 border border-grey-darkest">
+                    <p>Bootstrap</p>
+                    <div class="flex bg-grey-light rounded text-xs items-center">
+                        <ul class="list-reset flex">
+                            <li class="mx-2">
+                                <a href="#" class="no-underline hover:text-grey-darkest text-grey">
+                                    <i class="fa fa-globe" aria-hidden="true"></i>About</a>
+                            </li>
+                            <li class="mx-2">
+                                <a href="#" class="no-underline hover:text-grey-darkest text-grey">
+                                    <i class="fa fa-link" aria-hidden="true"></i> Visit the website</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <button class="bg-teal rounded w-1/4 text-white text-bold my-4 mx-6 py-3 hover:bg-teal-dark">
-                    Submit
-                </button>
-            </form>
+                <div class="flex justify-between rounded p-3 my-2 border border-grey-darkest">
+                    <p>Bulma</p>
+                    <div class="flex bg-grey-light rounded text-xs items-center">
+                        <ul class="list-reset flex">
+                            <li class="mx-2">
+                                <a href="#" class="no-underline hover:text-grey-darkest text-grey">
+                                    <i class="fa fa-globe" aria-hidden="true"></i>About</a>
+                            </li>
+                            <li class="mx-2">
+                                <a href="#" class="no-underline hover:text-grey-darkest text-grey">
+                                    <i class="fa fa-link" aria-hidden="true"></i> Visit the website</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex justify-between rounded p-3 my-2 border border-grey-darkest">
+                    <p>Foundation</p>
+                    <div class="flex bg-grey-light rounded text-xs items-center">
+                        <ul class="list-reset flex">
+                            <li class="mx-2">
+                                <a href="#" class="no-underline hover:text-grey-darkest text-grey">
+                                    <i class="fa fa-globe" aria-hidden="true"></i>About</a>
+                            </li>
+                            <li class="mx-2">
+                                <a href="#" class="no-underline hover:text-grey-darkest text-grey">
+                                    <i class="fa fa-link" aria-hidden="true"></i> Visit the website</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="text-center text-xs my-2">
+                    <a href="/contact" class="text-grey-darker no-underline hover:underline">Want to see there your own project? Go ahead and contact me!</a>
+                </p>
+            </div>
+        </div>
 
-            <div class="bg-white my-8 max-w-sm shadow-lg rounded-lg overflow-hidden">
-                <div class="sm:flex sm:items-center px-6 py-4">
-                    <img class="block h-16 sm:h-24 rounded-full mx-auto mb-4 sm:mb-0 sm:mr-4 sm:ml-0" src="https://avatars0.githubusercontent.com/u/16374732?s=460&v=4"
+        <div class="flex flex-col bg-white shadow p-4">
+            <h1 class="uppercase text-grey-darkest text-center">Latest blogposts</h1>
+            <hr class="border border-grey-darkest w-1/2 opacity-25">
+            <div class="flex my-4">
+                <div class="flex flex-col shadow-lg w-1/3 flex-wrap mx-4">
+                    <img class="rounded-t-lg" src="https://images.pexels.com/photos/828380/pexels-photo-828380.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb"
                         alt="">
-                    <div class="text-center sm:text-left sm:flex-grow">
-                        <div class="mb-4">
-                            <p class="text-xl leading-tight">Matej Bunček</p>
-                            <p class="text-sm leading-tight text-grey-dark">FullStack Developer</p>
-                        </div>
-                        <div>
-                            <a href="https://github.com/TheMartes" target="_BLANK"><button class="text-xs font-semibold rounded-full px-4 py-1 leading-normal bg-white border border-teal text-teal hover:bg-teal hover:text-white">Github</button></a>
-                        </div>
-                    </div>
+                    <h2 class="text-grey-darkest text-center my-2">Article #1</h2>
+                    <p class="px-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex inventore provident laboriosam ipsum dolor,
+                        iusto ipsam nulla, nobis doloremque suscipit reiciendis temporibus omnis voluptatum animi iure voluptates
+                        officia sunt minus.</p>
+                    <p class="text-center mt-2 p-3 bg-teal rounded-b-lg text-white hover:bg-teal-dark cursor-pointer">Read more</p>
+                </div>
+                <div class="flex flex-col shadow-lg w-1/3 flex-wrap mx-4">
+                    <img class="rounded-t-lg" src="https://images.pexels.com/photos/426893/pexels-photo-426893.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb"
+                        alt="">
+                    <h2 class="text-grey-darkest text-center my-2">Article #2</h2>
+                    <p class="px-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex inventore provident laboriosam ipsum dolor,
+                        iusto ipsam nulla, nobis doloremque suscipit reiciendis temporibus omnis voluptatum animi iure voluptates
+                        officia sunt minus.</p>
+                    <p class="text-center mt-2 p-3 bg-teal rounded-b-lg text-white hover:bg-teal-dark cursor-pointer">Read more</p>
+                </div>
+                <div class="flex flex-col shadow-lg w-1/3 flex-wrap mx-4">
+                    <img class="rounded-t-lg" src="https://images.pexels.com/photos/133464/pexels-photo-133464.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">
+                    <h2 class="text-grey-darkest text-center my-2">Article #3</h2>
+                    <p class="px-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex inventore provident laboriosam ipsum dolor,
+                        iusto ipsam nulla, nobis doloremque suscipit reiciendis temporibus omnis voluptatum animi iure voluptates
+                        officia sunt minus.</p>
+                    <p class="text-center mt-2 p-3 bg-teal rounded-b-lg text-white hover:bg-teal-dark cursor-pointer">Read more</p>
                 </div>
             </div>
         </div>
-    </main>
-
-    <footer class="w-full text-center bg-teal text-white py-8">
-        <p>Made with ❤️ by TheMartes 🚀</p>
-    </footer>
+    </div>
 
 </body>
+
 </html>
